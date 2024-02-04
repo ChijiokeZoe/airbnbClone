@@ -1,0 +1,164 @@
+
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+
+    header {
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      margin: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+
+    .samsbutton {
+      display: inline-block;
+      padding: 15px 30px;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      background-color: #ff5a5f;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .samsbutton:hover {
+      background-color: #e53e3e;
+    }
+
+    .listing {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    .listing img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .listing-info {
+      flex: 1;
+      margin-left: 20px;
+    }
+
+    .listing h2 {
+      color: #333;
+    }
+
+    .listing p {
+      color: #666;
+    }
+    .icon {
+        width: 1600px;
+    }
+
+    .logo {
+        width: 90px;
+        height: 40px;
+    }
+    .hamburger {
+        width: 30px;
+        height: 30px;
+    }
+    .menu {
+      width: 100px; /* Width adjusted to fit both icons comfortably */
+      height: 50px; /* Height adjusted for aesthetic spacing */
+      display: flex;
+      justify-content: space-around; /* Distributes the space around items */
+      align-items: center;
+      padding: 10px; /* Padding increased for more space around icons */
+      border: 1px solid rgb(186, 186, 186); /* Slightly darker border for visibility */
+      border-radius: 30px; /* Border radius adjusted for more rounded corners */
+      background-color: #ffffff; /* Assuming a white background as per the image */
+      box-sizing: border-box; /* Ensures padding and border are included in the width and height */
+  }
+  
+  .icon {
+      width: 24px; /* Set a fixed width for icons */
+      height: 24px; /* Set a fixed height for icons */
+      object-fit: contain; /* Ensures the images are scaled properly within the icon dimensions */
+  }
+  
+  /* Styling for mouse hover effect */
+  .menu:hover {
+      cursor: pointer; /* Changes cursor to a hand */
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+  }
+  
+
+
+    .option{
+        display: flex;
+        width : 30%;
+        justify-content: space-around;
+    }
+    .world{
+      display: flex;
+      width: 60%;
+      justify-content: space-around;
+      align-items: center;
+      
+    }
+    .world-icon{
+      width: 30px;
+      height: 30px;
+    }
+    .parent{
+      display: flex;
+      padding-top: 20px;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .parent2{
+      display: flex;
+      
+      width: 25%;
+      justify-content: space-around;
+      align-items: center;
+    
+    }
+    .icon-div{
+      width: 30%;
+    }
+    .focus {
+      font-weight: bold;
+    }
+    .scroll{
+      width: 50%;
+      height: 55px;
+      margin: auto;
+      padding: auto;
+      border-radius: 30px;
+      padding-top: 10px;
+      margin-top: 20px;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    }
+    .form{
+      display: flex;
+    }
